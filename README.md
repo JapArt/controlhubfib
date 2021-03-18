@@ -20,6 +20,8 @@ At this point, I only needed to create the REST API with their corresponding POS
 
 I namespaced the routes in /api and /v1 for versioning. In case we need to update the API in the future.
 
+I took the time to deploy it on heroku. You can try it live here: [Super blazing fast Fibonacci API](https://juancontrolhub.herokuapp.com)
+
 It was a fun project, honestly, I didn't remember many things but a quick search pointed me in the right direction.
 
 Please don’t hesitate to reach out if you have additional questions for me! I look forward to having another conversation with you soon.
