@@ -16,7 +16,19 @@ html lang="en"
         | request to 
         mark
           | /api/v1/fibonacci
+      
+      p.lead The JSON body should have an index attribute with the index number you would like to know.
       p.lead Example:
       pre
         code
-          | { "index": 3 }
+          | { "index": 100 }
+      
+      p.lead Response:
+      pre
+        code
+          | {"result":354224848179261915075}
+
+      p.lead 
+        | Cheers and have fun!,
+        br
+        | Juan Artau
